@@ -3,7 +3,11 @@ version: 1
 runtime: go
 api_version: go1
 
-handlers:
+handlers: 
+- url: /static
+  static_dir: ../views/static
+  
+
 - url: /.*
   script: _go_app
 

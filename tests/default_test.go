@@ -1,15 +1,13 @@
 package test
 
 import (
+	"github.com/astaxie/beegae"
+	. "github.com/smartystreets/goconvey/convey"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"
 	"runtime"
-	_ "techaguru-orangepineapple/routers"
 	"testing"
-
-	"github.com/astaxie/beegae"
-	. "github.com/smartystreets/goconvey/convey"
 )
 
 func init() {
