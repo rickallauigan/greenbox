@@ -6,7 +6,6 @@ api_version: go1
 handlers: 
 - url: /static
   static_dir: ../views/static
-  
 
 - url: /.*
   script: _go_app
